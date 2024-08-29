@@ -1,0 +1,247 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    background: url('../User/img/background 1.jpg');
+}
+
+.container
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1360px;
+    height: 800px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background: url('../User/img/background 2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .content
+{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 47%;
+    height: 77%;
+    background: transparent;
+    margin-right: 42%;
+    padding: 80px;
+    color: rgba(255, 255, 255, 0.957);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.content .logo
+{
+    font-size: 30px;
+}
+
+.content .logo h1
+{
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+.text-sci h2
+{
+    margin-top: 10%;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.text-sci h2 span
+{
+    font-size: 30px;
+}
+
+.text-sci p
+{
+    font-size: 20px;
+    margin: 80px 0;
+}
+
+.container .logreg-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.logreg-box .form-box
+{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: arial;
+    border: 1px inset #ffffff1f;
+    background: rgba(0, 0, 0, 0.516);
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Đăng nhập */
+.logreg-box .form-box.login
+{
+    transform:translateX(0px);
+    transition: transform .6s ease;
+    transition-delay: .7s;
+}
+
+.logreg-box.active .form-box.login
+{
+    transform:translateX(770px);
+    transition: transform .6s ease;
+}
+
+/* Đăng ký */
+.logreg-box .form-box.register
+{
+    transform:translateX(770px);
+    transition: transform .6s ease;
+    transition-delay: 0s;
+}
+
+.logreg-box.active .form-box.register
+{
+    transform:translateX(0px);
+    transition-delay: .7s;
+}
+
+.form-box h2
+{
+    margin-left: 120px;
+    font-size: 50px;
+    color: white;
+}
+
+.form-box h1
+{
+    margin-left: 150px;
+    font-size: 50px;
+    color: white;
+}
+
+.form-box .input-box
+{
+    position:relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+.input-box input
+{
+    width: 450px;
+    height: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 40px;
+    font-size: 20px;
+    color:#fff;
+    padding: 0 5px 0 45px;
+}
+
+.input-box label
+{
+    position:absolute;
+    top: 50%;
+    left: 10%;
+    transform:translateY(-50%);
+    font-size: 20px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label
+{
+    font-size: 20px;
+    top:-20px;
+    left:17px;
+}
+
+.input-box .icon
+{
+    position:absolute;
+    top:10px;
+    left: 15px;
+    font-size: 30px;
+    color:#ff0000;
+}
+
+.logreg-box .remeber-forgot
+{
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    margin: -25px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remeber-forgot label input
+{
+    accent-color:  #1e0b04;
+    margin-right: 3px;
+}
+
+.remeber-forgot a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+.remeber-forgot a:hover 
+{
+    text-decoration:  underline;
+}
+
+.logreg-box .btn
+{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius:  40px;
+    background:#be0000;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.logreg-box .login-register
+{
+    font-size:  17px;
+    color: white;
+    text-align:  center;
+    margin: 30px 0;
+}
+
+.login-register a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register a:hover
+{
+    text-decoration: underline;
+}

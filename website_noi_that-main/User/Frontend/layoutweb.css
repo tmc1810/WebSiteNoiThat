@@ -1,0 +1,86 @@
+body{
+    background:rgb(255, 255, 255);
+}
+
+/* CSS cho đầu đề */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgb(39, 38, 38);
+    padding: 10px;
+}
+
+.navbar{
+    height: 100px;
+}
+
+.navbar-brand{
+    margin-left: 150px;
+}
+.navbar ul li{
+    font-size: 18px;
+    margin-right: 20px
+}
+
+.navbar a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #FFF;
+}
+
+.nav{
+    margin-right: 100px;
+}
+
+.body-web{
+    position:relative;
+    margin: 0;
+    padding: 0;
+}
+
+.gioithieu{
+    width:100%;
+    background-color:aquamarine;
+}
+
+footer{
+    background: rgb(39, 38, 38);
+    padding: 1px;
+    position:relative; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+}
+
+footer .list{
+    margin-left: 300px;
+}
+
+footer hr{
+    background: rgb(232, 184, 91);
+    height: 2px;
+    border-top: var(--bs-border-width) solid;
+    opacity: 5;
+}
+
+footer ul li {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+footer ul li h5{
+    margin-top: 30px;
+    color:#FFF;
+}
+
+footer ul li a{
+    color:rgb(154, 154, 154);
+    text-decoration: none;
+}

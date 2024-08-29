@@ -1,0 +1,289 @@
+body, html{
+    height: 100%;
+    
+  }
+.gioithieu {
+    height: 100vh;
+    background-image: url("https://lan.nanoweb.vn/mediacenter/media/files/945/banners/28_1569901738_3235d92ccaa5e9bd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    height: 100%;
+}
+
+.footer {
+    background-color: #262626;
+    height: auto;
+    width: 100%;
+    color: white;
+
+}
+
+.menu ul li {
+    margin-left:20px;
+    list-style: none;
+}
+.nav_icon ul li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 25px;
+
+}
+.nav_icon ul li input {
+    border-radius: 25px;
+    display: flex;
+    width: 160px;
+    height:25px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav_icon ul li a {
+    color:white;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.menu ul li a {
+    color:white;
+    text-decoration: none;
+}
+.footer_menu ul li {
+    list-style: none;
+    color:white;
+}
+.footer_menu ul li a {
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.footer_menu ul li:hover a {
+    color: #bb8b44;
+}
+
+.footer_line {
+    border-bottom: 1px solid #bb8b44;
+
+}
+.footer_end {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer_end p {
+    text-align: center;
+    margin-top: 15px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+
+}
+.bella {
+    font-size: 100px;
+    margin-bottom: -10px;
+
+}
+.gioithieu1 {
+    display: flex;
+    margin-top: 20px;
+
+}
+.name_number{
+    border-right: 1px solid black;
+    height:55px;
+}
+.name_GT {
+    height:55px;
+    width: 250px;
+    border-bottom: 1px solid black;
+    
+}
+.gioithieu1_left_text {
+    line-height: 1.7;
+}
+.gioithieu2_left_button  {
+    height: 50px;
+    width: 180px;
+    background-color: #bb8b44;
+    
+}
+.gioithieu2_left_button a {
+    color: white;
+    text-decoration: none;
+}
+.gioithieu2_left_button:hover  {
+    background-color: black;
+}
+.sanpham {
+   min-height: 50vh;
+   margin-bottom: 30px;
+}
+.name_SP {
+    height:55px;
+    width: 320px;
+    border-bottom: 1px solid black;
+}
+.name_number2 {
+    border-right: 1px solid black;
+    height:55px;
+}
+
+.item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 340px;
+    width:340px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.item a img {
+    transition: transform 0.3s ease; /* chuyendongtrong3s */
+    height: 340px;
+    width: 340px;
+}
+.item :hover img {
+    transform: scale(1.1);
+}
+.item_content {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_content p {
+    font-size: 60px;
+    color: #edcd8e;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.item_content h3 {
+    color: black;
+    margin-right: 10px;
+}
+
+/* gioi thieu */
+
+.img_gioithieu {
+    height: 300px;
+    background-image: url("https://lan.nanoweb.vn/mediacenter/media/files/945/banners/321_1569916636_545d9306dcb89c8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+    margin: 0;
+}
+.img_gioithieu_content {
+    height: 130px;
+    width: 200px;
+    text-align: center; /* Căn giữa nội dung bên trong div */
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen có độ trong suốt 0.5 */
+    color: white;
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+}
+
+.img_gioithieu_content ul.d-flex {
+    display: flex; /* Sử dụng flexbox để sắp xếp các mục hàng ngang */
+    list-style: none; /* Loại bỏ dấu chấm mặc định của danh sách */
+    padding: 0; /* Loại bỏ khoảng trắng ngoài của danh sách */
+    color: white;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+}
+.img_gioithieu_content a{
+    color: white;
+    text-decoration: none;
+}
+
+.img_gioithieu_content ul.d-flex li {
+    margin-right: 10px; /* Khoảng cách giữa các mục (tuỳ chỉnh) */
+}
+
+.img_gioithieu_content ul.d-flex li:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách bên phải của mục cuối cùng */
+}
+.content_text p {
+    width: 450px; /* Độ rộng của đoạn văn bản */
+    word-wrap: break-word; /* Cho phép cắt từ xuống dòng mới nếu cần */
+}
+.line_black {
+    height: 1.5px;
+    width: 80px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.content_text_title {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-right: 30px;
+  }
+
+  .content_text p {
+    margin-top: 90px; /* Điều chỉnh khoảng cách tùy ý */
+  }
+
+  
+
+.item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 285px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.item a img {
+    
+    transition: transform 0.3s ease;
+    height: 285px;
+    width: 250px;
+}
+.item :hover img {
+    transform: scale(1.1);
+}
+
+.item_content {
+    position: absolute;
+    bottom: 0;
+    height: 115px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Màu đen có độ trong suốt 0.5 */
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center; /* Căn giữa dọc */
+
+}
+.item_content p {
+    font-size: 60px;
+    color: #edcd8e;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.item_content h3 {
+    color: white;
+    margin-right: 10px;
+}
+
+
